@@ -1,0 +1,32 @@
+menu "Example Configuration"
+
+    choice EXAMPLE_LCD_CONTROLLER
+        prompt "LCD controller model"
+        default EXAMPLE_LCD_CONTROLLER_st7796
+        help
+            Select LCD controller model
+
+        config EXAMPLE_LCD_CONTROLLER_st7796
+            bool "st7796"
+    endchoice
+
+    config EXAMPLE_LCD_TOUCH_ENABLED
+        bool "Enable LCD touch"
+        default n
+        help
+            Enable this option if you wish to use display touch. You can select from touch controllers.
+
+    choice EXAMPLE_LCD_TOUCH_CONTROLLER
+        prompt "LCD touch controller model"
+        depends on EXAMPLE_LCD_TOUCH_ENABLED
+        default EXAMPLE_LCD_TOUCH_CONTROLLER_STMPE610
+        help
+            Select LCD touch controller model
+
+        config EXAMPLE_LCD_TOUCH_CONTROLLER_STMPE610
+            bool "STMPE610"
+            help
+                Touch controller STMPE610 connected via SPI.
+    endchoice
+
+endmenu

@@ -1,0 +1,1 @@
+cmd='/usr/bin/cmake;-DSDKCONFIG=/home/zq/project-spi-lcd-touch/sdkconfig;-DIDF_PATH=/home/zq/esp/esp-idf;-DIDF_TARGET=esp32c3;-DPYTHON_DEPS_CHECKED=1;-DPYTHON=/home/zq/.espressif/python_env/idf5.1_py3.11_env/bin/python;-DEXTRA_COMPONENT_DIRS=/home/zq/esp/esp-idf/components/bootloader;-DPROJECT_SOURCE_DIR=/home/zq/project-spi-lcd-touch;-GNinja;<SOURCE_DIR><SOURCE_SUBDIR>'

@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+/home/zq/project-spi-lcd-touch/build/CMakeFiles/bootloader
+/home/zq/project-spi-lcd-touch/build/CMakeFiles/bootloader.rule
+/home/zq/project-spi-lcd-touch/build/CMakeFiles/bootloader-complete.rule
+/home/zq/project-spi-lcd-touch/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+/home/zq/project-spi-lcd-touch/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+/home/zq/project-spi-lcd-touch/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+/home/zq/project-spi-lcd-touch/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+/home/zq/project-spi-lcd-touch/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+/home/zq/project-spi-lcd-touch/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+/home/zq/project-spi-lcd-touch/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule
